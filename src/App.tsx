@@ -1,7 +1,6 @@
 import { lazy, Suspense } from "react";
 import { useWizardStore } from "@/store/wizardStore";
 
-// Lazy load step pages for code splitting
 const Step1AccountBasics = lazy(() => import("@/pages/Step1AccountBasics"));
 const Step2AccountSetup = lazy(() => import("@/pages/Step2AccountSetup"));
 const Step3Details = lazy(() => import("@/pages/Step3Details"));
