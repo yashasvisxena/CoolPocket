@@ -67,3 +67,6 @@ npm run preview  # Preview production build
 
 - **Custom UI over libraries** — Built all components from scratch for learning/demo purposes. A real app would probably use Radix or similar for accessibility.
 - **localStorage persistence** — Simple but not secure for sensitive data like passwords. Production would use encrypted storage or server-side sessions.
+
+![lcp and other details](image.png)
+![light-house results](image-1.png)
